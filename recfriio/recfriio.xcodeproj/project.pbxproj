@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8655204D0DD84667005E4132 /* recfriio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8655204C0DD84667005E4132 /* recfriio.cpp */; };
+		8675F12D0E508CA00070F2A0 /* arib_std_b25.c in Sources */ = {isa = PBXBuildFile; fileRef = 8675F11B0E508CA00070F2A0 /* arib_std_b25.c */; };
+		8675F12E0E508CA00070F2A0 /* b_cas_card.c in Sources */ = {isa = PBXBuildFile; fileRef = 8675F11E0E508CA00070F2A0 /* b_cas_card.c */; };
+		8675F12F0E508CA00070F2A0 /* multi2.c in Sources */ = {isa = PBXBuildFile; fileRef = 8675F1210E508CA00070F2A0 /* multi2.c */; };
+		8675F1300E508CA00070F2A0 /* ts_section_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 8675F1260E508CA00070F2A0 /* ts_section_parser.c */; };
+		8675F1310E508CA00070F2A0 /* friio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8675F1290E508CA00070F2A0 /* friio.cpp */; };
+		8675F1320E508CA00070F2A0 /* streambuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8675F12B0E508CA00070F2A0 /* streambuffer.cpp */; };
+		86A6664E0DBA0103008D618F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A6664D0DBA0103008D618F /* IOKit.framework */; };
+		86A666550DBA0126008D618F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A666540DBA0126008D618F /* Cocoa.framework */; };
+		86C10B410DD448FB005A74EF /* PCSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C10B400DD448FB005A74EF /* PCSC.framework */; };
+		8DD76F790486A8DE00D96B5E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */; };
+		8DD76F7C0486A8DE00D96B5E /* recfriio.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E970290921104C91782 /* recfriio.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F7B0486A8DE00D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F7C0486A8DE00D96B5E /* recfriio.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8655204C0DD84667005E4132 /* recfriio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recfriio.cpp; sourceTree = "<group>"; };
+		8675F11B0E508CA00070F2A0 /* arib_std_b25.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arib_std_b25.c; sourceTree = "<group>"; };
+		8675F11C0E508CA00070F2A0 /* arib_std_b25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arib_std_b25.h; sourceTree = "<group>"; };
+		8675F11D0E508CA00070F2A0 /* arib_std_b25_error_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arib_std_b25_error_code.h; sourceTree = "<group>"; };
+		8675F11E0E508CA00070F2A0 /* b_cas_card.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = b_cas_card.c; sourceTree = "<group>"; };
+		8675F11F0E508CA00070F2A0 /* b_cas_card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b_cas_card.h; sourceTree = "<group>"; };
+		8675F1200E508CA00070F2A0 /* b_cas_card_error_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b_cas_card_error_code.h; sourceTree = "<group>"; };
+		8675F1210E508CA00070F2A0 /* multi2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = multi2.c; sourceTree = "<group>"; };
+		8675F1220E508CA00070F2A0 /* multi2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi2.h; sourceTree = "<group>"; };
+		8675F1230E508CA00070F2A0 /* multi2_error_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi2_error_code.h; sourceTree = "<group>"; };
+		8675F1240E508CA00070F2A0 /* portable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portable.h; sourceTree = "<group>"; };
+		8675F1250E508CA00070F2A0 /* ts_common_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts_common_types.h; sourceTree = "<group>"; };
+		8675F1260E508CA00070F2A0 /* ts_section_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ts_section_parser.c; sourceTree = "<group>"; };
+		8675F1270E508CA00070F2A0 /* ts_section_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts_section_parser.h; sourceTree = "<group>"; };
+		8675F1280E508CA00070F2A0 /* ts_section_parser_error_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts_section_parser_error_code.h; sourceTree = "<group>"; };
+		8675F1290E508CA00070F2A0 /* friio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = friio.cpp; sourceTree = "<group>"; };
+		8675F12A0E508CA00070F2A0 /* friio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friio.h; sourceTree = "<group>"; };
+		8675F12B0E508CA00070F2A0 /* streambuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = streambuffer.cpp; sourceTree = "<group>"; };
+		8675F12C0E508CA00070F2A0 /* streambuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streambuffer.h; sourceTree = "<group>"; };
+		86A6664D0DBA0103008D618F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		86A666540DBA0126008D618F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		86C10B400DD448FB005A74EF /* PCSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCSC.framework; path = /System/Library/Frameworks/PCSC.framework; sourceTree = "<absolute>"; };
+		8DD76F7E0486A8DE00D96B5E /* recfriio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = recfriio; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E970290921104C91782 /* recfriio.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = recfriio.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F780486A8DE00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F790486A8DE00D96B5E /* CoreFoundation.framework in Frameworks */,
+				86A6664E0DBA0103008D618F /* IOKit.framework in Frameworks */,
+				86A666550DBA0126008D618F /* Cocoa.framework in Frameworks */,
+				86C10B410DD448FB005A74EF /* PCSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* recfriio */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E96029091FE04C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				19C28FBDFE9D53C911CA2CBB /* Products */,
+			);
+			name = recfriio;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8675F1190E508CA00070F2A0 /* friio */,
+				8655204C0DD84667005E4132 /* recfriio.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				86C10B400DD448FB005A74EF /* PCSC.framework */,
+				86A666540DBA0126008D618F /* Cocoa.framework */,
+				86A6664D0DBA0103008D618F /* IOKit.framework */,
+				09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		19C28FBDFE9D53C911CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F7E0486A8DE00D96B5E /* recfriio */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8675F1190E508CA00070F2A0 /* friio */ = {
+			isa = PBXGroup;
+			children = (
+				8675F11A0E508CA00070F2A0 /* b25 */,
+				8675F1290E508CA00070F2A0 /* friio.cpp */,
+				8675F12A0E508CA00070F2A0 /* friio.h */,
+				8675F12B0E508CA00070F2A0 /* streambuffer.cpp */,
+				8675F12C0E508CA00070F2A0 /* streambuffer.h */,
+			);
+			path = friio;
+			sourceTree = "<group>";
+		};
+		8675F11A0E508CA00070F2A0 /* b25 */ = {
+			isa = PBXGroup;
+			children = (
+				8675F11B0E508CA00070F2A0 /* arib_std_b25.c */,
+				8675F11C0E508CA00070F2A0 /* arib_std_b25.h */,
+				8675F11D0E508CA00070F2A0 /* arib_std_b25_error_code.h */,
+				8675F11E0E508CA00070F2A0 /* b_cas_card.c */,
+				8675F11F0E508CA00070F2A0 /* b_cas_card.h */,
+				8675F1200E508CA00070F2A0 /* b_cas_card_error_code.h */,
+				8675F1210E508CA00070F2A0 /* multi2.c */,
+				8675F1220E508CA00070F2A0 /* multi2.h */,
+				8675F1230E508CA00070F2A0 /* multi2_error_code.h */,
+				8675F1240E508CA00070F2A0 /* portable.h */,
+				8675F1250E508CA00070F2A0 /* ts_common_types.h */,
+				8675F1260E508CA00070F2A0 /* ts_section_parser.c */,
+				8675F1270E508CA00070F2A0 /* ts_section_parser.h */,
+				8675F1280E508CA00070F2A0 /* ts_section_parser_error_code.h */,
+			);
+			path = b25;
+			sourceTree = "<group>";
+		};
+		C6859E96029091FE04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E970290921104C91782 /* recfriio.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F740486A8DE00D96B5E /* recfriio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "recfriio" */;
+			buildPhases = (
+				8DD76F760486A8DE00D96B5E /* Sources */,
+				8DD76F780486A8DE00D96B5E /* Frameworks */,
+				8DD76F7B0486A8DE00D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = recfriio;
+			productInstallPath = "$(HOME)/bin";
+			productName = recfriio;
+			productReference = 8DD76F7E0486A8DE00D96B5E /* recfriio */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "recfriio" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* recfriio */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F740486A8DE00D96B5E /* recfriio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F760486A8DE00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8655204D0DD84667005E4132 /* recfriio.cpp in Sources */,
+				8675F12D0E508CA00070F2A0 /* arib_std_b25.c in Sources */,
+				8675F12E0E508CA00070F2A0 /* b_cas_card.c in Sources */,
+				8675F12F0E508CA00070F2A0 /* multi2.c in Sources */,
+				8675F1300E508CA00070F2A0 /* ts_section_parser.c in Sources */,
+				8675F1310E508CA00070F2A0 /* friio.cpp in Sources */,
+				8675F1320E508CA00070F2A0 /* streambuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB924808733DCA0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = recfriio;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB924908733DCA0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = recfriio;
+			};
+			name = Release;
+		};
+		1DEB924C08733DCA0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB924D08733DCA0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "recfriio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB924808733DCA0010E9CD /* Debug */,
+				1DEB924908733DCA0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "recfriio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB924C08733DCA0010E9CD /* Debug */,
+				1DEB924D08733DCA0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
